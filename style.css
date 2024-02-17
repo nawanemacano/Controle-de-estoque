@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+
+}
+.tab {
+    display: none;
+}
+/* Estilo das abas */
+.tab-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    color: #ccc;
+}
+.tab-link {
+    margin: 0 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+/* Estilo do conteúdo das abas */
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
